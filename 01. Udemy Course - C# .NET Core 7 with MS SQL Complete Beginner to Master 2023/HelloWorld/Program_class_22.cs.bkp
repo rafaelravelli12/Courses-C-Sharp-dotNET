@@ -81,34 +81,6 @@ namespace HelloWorld
 			totalValue = intsToCompress.Sum();
 			Console.WriteLine((DateTime.Now - startTime).TotalSeconds);
 			Console.WriteLine(totalValue);
-
-			// Eight Run
-			startTime = DateTime.Now;
-			// totalValue = GetSum();
-			totalValue = GetSumWithParameters(intsToCompress);
-			Console.WriteLine((DateTime.Now - startTime).TotalSeconds);
-			Console.WriteLine(totalValue);
-		}
-
-		static private int GetSum()
-		{
-			int totalValue = 0;
-			int[] intsToCompress = new int[] { 10, 15, 20, 25, 30, 12, 34 };
-			foreach (int intForCompression in intsToCompress)
-			{
-				totalValue += intForCompression;
-			}
-			return totalValue;
-		}
-
-		static private int GetSumWithParameters(int[] intsToCompress)
-		{
-			int totalValue = 0;
-			foreach (int intForCompression in intsToCompress)
-			{
-				totalValue += intForCompression;
-			}
-			return totalValue;
 		}
 	}
 }

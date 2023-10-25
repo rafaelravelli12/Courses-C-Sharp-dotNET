@@ -12,3 +12,17 @@ C:\Users\rafae\coding\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
 C:\Users\rafae\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
 C:\Users\rafae\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
 C:\Users\rafae\coding\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+C:\Users\rafae\Documents\01. Coding\01. GitHub Projects\Projects-C-Sharp-.NET\01. Udemy Course - C# .NET Core 7 with MS SQL Complete Beginner to Master 2023\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
