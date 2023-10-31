@@ -1,0 +1,10 @@
+dotnet new webapi --name DotnetAPI
+http://localhost:5231/WeatherForecast
+http://localhost:5231/swagger/index.html
+
+dotnet add package dapper
+dotnet add package automapper
+dotnet add package Microsoft.Data.SqlClient
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer

@@ -1,3 +1,5 @@
+dotnet new console -n HelloWorld
+
 // Tells our project that we have new packages installed and recreate the project
 	dotnet restore -> Instalar as extensões corretamente
 
