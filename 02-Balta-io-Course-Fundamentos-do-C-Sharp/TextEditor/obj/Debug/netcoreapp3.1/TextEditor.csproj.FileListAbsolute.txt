@@ -1,0 +1,13 @@
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.exe
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.deps.json
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.json
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.dev.json
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.dll
+C:\coding\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.pdb
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfoInputs.cache
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfo.cs
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.CoreCompileInputs.cache
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.dll
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.pdb
+C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.genruntimeconfig.cache
