@@ -1,0 +1,8 @@
+## Terminal Commands ##
+
+	mkdir UtmBuilder
+	cd .\UtmBuilder\
+	dotnet new sln						   ->> The template "Solution File" was created successfully.
+	dotnet new classlib -o UtmBuilder.Core ->> The template "Class Library" was created successfully.
+	dotnet sln add .\UtmBuilder.Core\	   ->> Project `UtmBuilder.Core\UtmBuilder.Core.csproj` added to the solution.
+	dotnet build						   ->> Build succeeded. 0 Warning(s) 0 Error(s)
