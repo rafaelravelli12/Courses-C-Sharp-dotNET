@@ -6,6 +6,6 @@
 
 ### Estimeed Sirs,
 
-This repository is being used as showcase for courses I did using C# with .NET.
+This repository is being used as showcase for courses I completed using C# on .NET.
 
 Graciously,
