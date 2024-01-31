@@ -1,4 +1,4 @@
-# Projects C# with .NET
+# Courses C# with .NET
 
 ![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
@@ -6,6 +6,6 @@
 
 ### Estimeed Sirs,
 
-This repository is being used to allocate my public projects using C# with .NET.
+This repository is being used as showcase for courses I did using C# with .NET.
 
 Graciously,
