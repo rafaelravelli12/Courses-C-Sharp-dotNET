@@ -52,7 +52,7 @@ namespace TextEditor
             Console.Clear();
             // Need to discover why code is deleting first letter on the next line!
             Console.WriteLine("aWhat path to save the file?");
-            // suggested file to be saved: C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
+            // suggested file to be saved: C:\coding\Github-Courses\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
             var path = Console.ReadLine();
 
             using (var file = new StreamWriter(path))
@@ -69,7 +69,7 @@ namespace TextEditor
         {
             Console.Clear();
             Console.WriteLine("What is the file path?");
-            // suggested file to be opened: C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
+            // suggested file to be opened: C:\coding\Github-Courses\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
             string path = Console.ReadLine();
 
             using (var file = new StreamReader(path))
