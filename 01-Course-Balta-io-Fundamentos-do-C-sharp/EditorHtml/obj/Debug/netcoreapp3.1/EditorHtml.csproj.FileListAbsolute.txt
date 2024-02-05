@@ -11,3 +11,17 @@ C:\coding\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.csproj.CoreCompileInputs
 C:\coding\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.dll
 C:\coding\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.pdb
 C:\coding\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.genruntimeconfig.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.exe
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.deps.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.runtimeconfig.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.runtimeconfig.dev.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\bin\Debug\netcoreapp3.1\EditorHtml.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.AssemblyInfoInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.AssemblyInfo.cs
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.csproj.CoreCompileInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.sourcelink.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\EditorHtml\obj\Debug\netcoreapp3.1\EditorHtml.genruntimeconfig.cache

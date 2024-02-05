@@ -11,7 +11,7 @@ namespace EditorHtml
 			Console.BackgroundColor = ConsoleColor.White;
 			Console.ForegroundColor = ConsoleColor.Black;
 			Console.Clear();
-			Console.WriteLine("MODO EDITOR");
+			Console.WriteLine("CREATE TEXT MODE");
 			Console.WriteLine("----------------------------------------");
 			Start();
 		}
@@ -19,15 +19,13 @@ namespace EditorHtml
 		public static void Start()
 		{
 			var file = new StringBuilder();
-
 			do
 			{
 				file.Append(Console.ReadLine());
 				file.Append(Environment.NewLine);
 			}
 			while (Console.ReadKey().Key != ConsoleKey.Escape);
-			Console.WriteLine("----------------------------------------");
-			Console.WriteLine("Deseja salvar este arquivo?");
+
 			Viewer.Show(file.ToString());
 		}
 	}

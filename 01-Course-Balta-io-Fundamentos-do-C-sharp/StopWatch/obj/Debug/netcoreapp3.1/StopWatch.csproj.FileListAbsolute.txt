@@ -11,3 +11,17 @@ C:\coding\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.csproj.CoreCompileInputs.c
 C:\coding\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.dll
 C:\coding\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.pdb
 C:\coding\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.genruntimeconfig.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.exe
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.deps.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.runtimeconfig.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.runtimeconfig.dev.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\bin\Debug\netcoreapp3.1\StopWatch.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.AssemblyInfoInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.AssemblyInfo.cs
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.csproj.CoreCompileInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.sourcelink.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\StopWatch\obj\Debug\netcoreapp3.1\StopWatch.genruntimeconfig.cache

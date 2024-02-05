@@ -9,7 +9,7 @@
 I recommend the course “Fundamentos do C#” by André Baltieri.
 Skills covered: .NET console, Value Types and Reference Types, Basic Operations, Strings, Arrays and Exceptions.
 
-Overview: Some principles of c# on .net will be covered, based on 4 console projects.
+Overview: Some principles of c# on .net will be covered, based on 4 console projects, a Calculator, an EditorHtml, an StopWatch and a TextEditor.
 
 [Course path](https://balta.io/cursos/fundamentos-csharp) (acessed 01/01/2024).
 

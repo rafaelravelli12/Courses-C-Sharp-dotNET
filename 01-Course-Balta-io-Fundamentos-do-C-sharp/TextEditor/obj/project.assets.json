@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\coding\\TextEditor\\TextEditor.csproj",
+      "projectUniqueName": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\TextEditor\\TextEditor.csproj",
       "projectName": "TextEditor",
-      "projectPath": "C:\\coding\\TextEditor\\TextEditor.csproj",
+      "projectPath": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\TextEditor\\TextEditor.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\coding\\TextEditor\\obj\\",
+      "outputPath": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\TextEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -19,6 +19,7 @@ namespace EditorHtml
 
 		public static void DrawScreen()
 		{
+			// first line
 			Console.Write("+");
 			for (int i = 0; i <= 38; i++)
 			{
@@ -27,7 +28,8 @@ namespace EditorHtml
 			Console.Write("+");
 			Console.Write("\n");
 
-			for (int lines = 0; lines <= 10; lines++)
+			// inbound lines
+			for (int lines = 0; lines <= 9; lines++)
 			{
 				Console.Write("|");
 				for (int i = 0; i <= 38; i++)
@@ -38,6 +40,7 @@ namespace EditorHtml
 				Console.Write("\n");
 			}
 
+			// last line
 			Console.Write("+");
 			for (int i = 0; i <= 38; i++)
 			{
@@ -53,13 +56,13 @@ namespace EditorHtml
 			Console.SetCursorPosition(3, 3);
 			Console.WriteLine("===========");
 			Console.SetCursorPosition(3, 4);
-			Console.WriteLine("Selecione uma opção abaixo");
+			Console.WriteLine("Select one of the options behind:");
 			Console.SetCursorPosition(3, 6);
-			Console.WriteLine("1 - Novo arquivo");
+			Console.WriteLine("1 - New text file");
+			Console.SetCursorPosition(3, 7);
+			Console.WriteLine("0 - Exit");
 			Console.SetCursorPosition(3, 9);
-			Console.WriteLine("0 - Sair");
-			Console.SetCursorPosition(3, 10);
-			Console.Write("Opção: ");
+			Console.Write("Choosen option: ");
 		}
 
 		public static void HandleMenuOptions(short option)
@@ -67,7 +70,6 @@ namespace EditorHtml
 			switch (option)
 			{
 				case 1: Editor.Show(); break;
-				case 2: Viewer.Show(""); break;
 				case 0:
 					{
 						Console.Clear();

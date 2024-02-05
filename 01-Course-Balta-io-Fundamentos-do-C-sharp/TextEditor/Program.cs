@@ -13,42 +13,26 @@ namespace TextEditor
         static void Menu()
         {
             Console.Clear();
-            Console.WriteLine("O que você deseja fazer?");
-            Console.WriteLine("1 - Abrir arquivo");
-            Console.WriteLine("2 - Criar novo arquivo");
-            Console.WriteLine("0 - Sair");
+            Console.WriteLine("TextEditor");
+            Console.WriteLine("-------------------");
+            Console.WriteLine("1 - Create new file");
+            Console.WriteLine("2 - Open file");
+            Console.WriteLine("0 - Exit");
 
             short options = short.Parse(Console.ReadLine());
             switch (options)
             {
-                default: Menu(); break;
+                case 1: Criar(); break;
+                case 2: Abrir(); break;
                 case 0: System.Environment.Exit(0); break;
-                case 1: Abrir(); break;
-                case 2: Criar(); break;
+                default: Menu(); break;
             }
-        }
-
-        static void Abrir()
-        {
-            Console.Clear();
-            Console.WriteLine("Qual o caminho do arquivo?");
-            string path = Console.ReadLine();
-
-            using (var file = new StreamReader(path))
-            {
-                string text = file.ReadToEnd();
-                Console.WriteLine(text);
-            }
-
-            Console.WriteLine("");
-            Console.ReadLine();
-            Menu();
         }
 
         static void Criar()
         {
             Console.Clear();
-            Console.WriteLine("Digite seu texto aqui (ESC para sair):");
+            Console.WriteLine("Type your text here (ESC to exit):");
             Console.WriteLine("----------------------");
 
             string text = "";
@@ -66,7 +50,9 @@ namespace TextEditor
         static void Salvar(string text)
         {
             Console.Clear();
-            Console.WriteLine("Qual caminho para salvar o arquivo?");
+            // Need to discover why code is deleting first letter on the next line!
+            Console.WriteLine("aWhat path to save the file?");
+            // suggested file to be saved: C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
             var path = Console.ReadLine();
 
             using (var file = new StreamWriter(path))
@@ -74,7 +60,25 @@ namespace TextEditor
                 file.Write(text);
             }
 
-            Console.WriteLine($"Arquivo {path} salvo com sucesso");
+            Console.WriteLine($"File {path} successfully saved");
+            Console.ReadLine();
+            Menu();
+        }
+
+        static void Abrir()
+        {
+            Console.Clear();
+            Console.WriteLine("What is the file path?");
+            // suggested file to be opened: C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\test.txt
+            string path = Console.ReadLine();
+
+            using (var file = new StreamReader(path))
+            {
+                string text = file.ReadToEnd();
+                Console.WriteLine(text);
+            }
+
+            Console.WriteLine("");
             Console.ReadLine();
             Menu();
         }

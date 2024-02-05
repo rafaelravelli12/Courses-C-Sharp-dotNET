@@ -11,3 +11,17 @@ C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.CoreCompileInputs
 C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.dll
 C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.pdb
 C:\coding\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.genruntimeconfig.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.exe
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.deps.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.runtimeconfig.dev.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\bin\Debug\netcoreapp3.1\TextEditor.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfoInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.AssemblyInfo.cs
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.csproj.CoreCompileInputs.cache
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.sourcelink.json
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.dll
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.pdb
+C:\coding\Github-Course\Courses-C-Sharp-dotNET\01-Course-Balta-io-Fundamentos-do-C-sharp\TextEditor\obj\Debug\netcoreapp3.1\TextEditor.genruntimeconfig.cache

@@ -13,20 +13,19 @@ namespace StopWatch
         static void Menu()
         {
             Console.Clear();
-            Console.WriteLine("S = segundos => 10s = 10 segundos");
-            Console.WriteLine("M = minutos => 30m = 30 minutos");
-            Console.WriteLine("0 = sair");
-            Console.WriteLine("Quanto tempo deseja contar:");
+            Console.WriteLine("StopWatch");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("S = seconds => 10s = 10 seconds");
+            Console.WriteLine("M = minutes => 30m = 30 minutes");
+            Console.WriteLine("0 = Exit");
+            Console.WriteLine("How long do you want to count: ");
 
             string data = Console.ReadLine().ToLower();
+
             if (data == "0")
                 System.Environment.Exit(0);
             char type = char.Parse(data.Substring(data.Length - 1, 1));
             int time = int.Parse(data.Substring(0, data.Length - 1));
-            Console.WriteLine(data);
-            Console.WriteLine(type);
-            Console.WriteLine(time);
-
             int multiplier = 1;
             if (time == 'm')
                 multiplier = 60;
@@ -58,8 +57,8 @@ namespace StopWatch
                 Thread.Sleep(1000);
             }
             Console.Clear();
-            Console.WriteLine("StopWatch finalizado, retornando para o menu:");
-            Thread.Sleep(2000);
+            Console.WriteLine("StopWatch finished, returning to menu...");
+            Thread.Sleep(1000);
             Menu();
         }
     }

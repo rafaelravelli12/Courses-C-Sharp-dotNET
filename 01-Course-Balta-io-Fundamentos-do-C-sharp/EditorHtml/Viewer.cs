@@ -11,11 +11,13 @@ namespace EditorHtml
 			Console.BackgroundColor = ConsoleColor.White;
 			Console.ForegroundColor = ConsoleColor.Black;
 			Console.Clear();
-			Console.WriteLine("MODO VISUALIZAÇÃO");
+            // Need to discover why code is deleting first letter on the next line!
+            Console.WriteLine("aVISUALIZATION MODE");
 			Console.WriteLine("----------------------------------------");
 			Replace(text);
-			Console.WriteLine("----------------------------------------");
-			Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+            // Need to discover why code is printing a space on the next line!
+            Console.WriteLine("----------------------------------------");
+			Console.WriteLine("Press any key to return to Menu");
 			Console.ReadKey();
 			Menu.Show();
 		}
@@ -29,11 +31,7 @@ namespace EditorHtml
 				if (strong.IsMatch(words[i]))
 				{
 					Console.ForegroundColor = ConsoleColor.Blue;
-					Console.Write(
-						words[i].Substring(
-							words[i].IndexOf('>') + 1,
-							((words[i].LastIndexOf('<') - 1) - words[i].IndexOf('>'))
-						)
+					Console.Write(words[i].Substring(words[i].IndexOf('>') + 1,((words[i].LastIndexOf('<') - 1) - words[i].IndexOf('>')))
 					);
 					Console.Write(" ");
 				}

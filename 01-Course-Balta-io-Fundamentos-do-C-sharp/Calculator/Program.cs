@@ -13,17 +13,17 @@ namespace Calculator
         {
             Console.Clear();
 
-            Console.WriteLine("o que deseja fazer:");
-            Console.WriteLine("1 - Soma");
-            Console.WriteLine("2 - Subtração");
-            Console.WriteLine("3 - Multiplicação");
-            Console.WriteLine("4 - Divisão");
-            Console.WriteLine("5 - Sair do programa");
+            Console.WriteLine("Calculator");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("1 - Sum");
+            Console.WriteLine("2 - Substraction");
+            Console.WriteLine("3 - Multiplication");
+            Console.WriteLine("4 - Division");
+            Console.WriteLine("5 - Exit");
             Console.WriteLine("----------------------");
-            Console.WriteLine("Selecione uma das opções:");
+            Console.WriteLine("Choose one of the options: ");
 
             short res = short.Parse(Console.ReadLine());
-
             switch (res)
             {
                 case 1: Soma(); break;
@@ -36,58 +36,53 @@ namespace Calculator
 
         static void Soma()
         {
-            Console.WriteLine("Primeiro valor: ");
+            Console.WriteLine("First value: ");
             float v1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo valor: ");
+            Console.WriteLine("Second value: ");
             float v2 = float.Parse(Console.ReadLine());
             float result = v1 + v2;
 
-            Console.WriteLine("");
-            Console.WriteLine($"O resultado da soma é: {result}");
+            Console.WriteLine($"The sum result is: {result}");
             Console.ReadKey();
-
             Menu();
         }
 
         static void Subtracao()
         {
-            Console.WriteLine("Primeiro valor: ");
+            Console.WriteLine("First value: ");
             float v1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo valor: ");
+            Console.WriteLine("Second value: ");
             float v2 = float.Parse(Console.ReadLine());
             float result = v1 - v2;
 
-            Console.WriteLine($"O resultado da subtração é: {result}");
+            Console.WriteLine($"The substraction result is: {result}");
             Console.ReadKey();
-
             Menu();
         }
 
         static void Multiplicacao()
         {
-            Console.WriteLine("Primeiro valor: ");
+            Console.WriteLine("First value: ");
             float v1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo valor: ");
+            Console.WriteLine("Second value: ");
             float v2 = float.Parse(Console.ReadLine());
             float result = v1 * v2;
 
-            Console.WriteLine($"O resultado da multiplicação é: {result}");
+            Console.WriteLine($"The multiplication result is: {result}");
             Console.ReadKey();
-
             Menu();
         }
 
         static void Divisao()
         {
-            Console.WriteLine("Primeiro valor: ");
+            Console.WriteLine("First value: ");
             float v1 = float.Parse(Console.ReadLine());
-            Console.WriteLine("Segundo valor: ");
+            Console.WriteLine("Second value: ");
             float v2 = float.Parse(Console.ReadLine());
             float result = v1 / v2;
 
-            Console.WriteLine($"O resultado da divisão é: {result}");
+            Console.WriteLine($"The division result is: {result}");
             Console.ReadKey();
-
             Menu();
         }
     }

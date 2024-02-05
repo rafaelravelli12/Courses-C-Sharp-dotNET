@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\coding\\EditorHtml\\EditorHtml.csproj": {}
+    "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\EditorHtml\\EditorHtml.csproj": {}
   },
   "projects": {
-    "C:\\coding\\EditorHtml\\EditorHtml.csproj": {
+    "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\EditorHtml\\EditorHtml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\coding\\EditorHtml\\EditorHtml.csproj",
+        "projectUniqueName": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\EditorHtml\\EditorHtml.csproj",
         "projectName": "EditorHtml",
-        "projectPath": "C:\\coding\\EditorHtml\\EditorHtml.csproj",
+        "projectPath": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\EditorHtml\\EditorHtml.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\coding\\EditorHtml\\obj\\",
+        "outputPath": "C:\\coding\\Github-Course\\Courses-C-Sharp-dotNET\\01-Course-Balta-io-Fundamentos-do-C-sharp\\EditorHtml\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
