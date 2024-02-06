@@ -30,4 +30,12 @@ cmd terminal command: dotnet new classlib -o UtmBuilder.Core --framework net7.0
 
 cmd terminal command: dotnet sln add .\UtmBuilder.Core\
 
+cmd terminal command: dotnet new mstest -o UtmBuilder.Core.Tests --framework net7.0
+
+cmd terminal command: dotnet sln add .\UtmBuilder.Core.Tests\
+
+cmd terminal command: dotnet test
+
+cmd terminal command: dotnet add reference ..\UtmBuilder.Core\
+
 Graciously,

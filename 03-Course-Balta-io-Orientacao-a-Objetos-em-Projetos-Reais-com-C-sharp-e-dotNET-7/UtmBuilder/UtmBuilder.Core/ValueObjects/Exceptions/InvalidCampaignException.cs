@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace UtmBuilder.Core.ValueObjects.Exceptions;
 
-public class InvalidCampaignException : Exception
+namespace UtmBuilder.Core.ValueObjects.Exceptions
 {
-    private const string DefaultErrorMessage = "Invalid UTM parameters";
-
-    public InvalidCampaignException(string message = DefaultErrorMessage) : base(message)
+    public class InvalidCampaignException : Exception
     {
-    }
+        private const string DefaultErrorMessage = "Invalid UTM parameters";
 
-    public static void ThrowIfNull(string? item, string message = DefaultErrorMessage)
-    {
-        if (string.IsNullOrEmpty(item))
-            throw new InvalidCampaignException(message);
+        public InvalidCampaignException(string message = DefaultErrorMessage) : base(message)
+        {
+        }
+
+        public static void ThrowIfNull(string? item, string message = DefaultErrorMessage)
+        {
+            if (string.IsNullOrEmpty(item))
+                throw new InvalidCampaignException(message);
+        }
     }
 }
