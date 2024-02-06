@@ -10,7 +10,7 @@ I recommend the course “Orientação a Objetos em Projetos Reais com C# e .NET
 
 Skills covered:
 
-Overview:
+Overview: This course covers object orientation in an applied project. It also covers unit tests. 
 
 [Course path](https://balta.io/cursos/aplicando-orientacao-a-objetos-em-projetos-reais-com-csharp-11-e-dotnet-7).
 
