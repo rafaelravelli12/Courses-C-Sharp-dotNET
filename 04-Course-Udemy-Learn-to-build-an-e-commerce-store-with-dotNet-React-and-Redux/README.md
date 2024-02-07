@@ -20,7 +20,7 @@ Overview:
 
 # Startup terminal commands
 
-System must have dotnet sdk 5.0 installed: https://dotnet.microsoft.com/en-us/download/dotnet/5.0
+System must have dotnet sdk 7.0 installed: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 
 Installation can be verified by cmd terminal command: dotnet --list-sdks
 
@@ -43,5 +43,11 @@ In browser, run http://localhost:5000/swagger
 cmd terminal command: dotnet add package Microsoft.EntityFrameworkCore.Sqlite -v 7.0.2
 
 cmd terminal command: dotnet add package Microsoft.EntityFrameworkCore.Design -v 7.0.2
+
+cmd terminal command: dotnet tool install --global dotnet-ef --version 8.0.1
+
+cmd terminal command: dotnet ef migrations add InitialCreate -o Data/Migrations
+
+cmd terminal command: dotnet ef database update
 
 Graciously,

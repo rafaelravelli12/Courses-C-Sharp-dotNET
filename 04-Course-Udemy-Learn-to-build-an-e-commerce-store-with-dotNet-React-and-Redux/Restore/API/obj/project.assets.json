@@ -1723,11 +1723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\API.csproj",
+      "projectUniqueName": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Course-Udemy-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\API.csproj",
+      "projectPath": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Course-Udemy-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\API.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\obj\\",
+      "outputPath": "C:\\coding\\Github-Courses\\Courses-C-Sharp-dotNET\\04-Course-Udemy-Learn-to-build-an-e-commerce-store-with-dotNet-React-and-Redux\\Restore\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
