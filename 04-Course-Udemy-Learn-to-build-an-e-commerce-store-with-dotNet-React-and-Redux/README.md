@@ -50,4 +50,8 @@ cmd terminal command: dotnet ef migrations add InitialCreate -o Data/Migrations
 
 cmd terminal command: dotnet ef database update
 
+cmd terminal command: dotnet ef database drop
+
+cmd terminal command: dotnet new gitignore
+
 Graciously,
