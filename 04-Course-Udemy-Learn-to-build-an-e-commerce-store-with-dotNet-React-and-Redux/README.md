@@ -54,4 +54,16 @@ cmd terminal command: dotnet ef database drop
 
 cmd terminal command: dotnet new gitignore
 
+cmd terminal command: \Restore\npm create vite@latest
+
+cmd terminal command: \Restore\npm install
+
+cmd terminal command: \Restore\client\npm run dev
+
+cmd terminal command: npm install @mui/material @emotion/react @emotion/styled
+
+cmd terminal command: npm install @fontsource/roboto
+
+cmd terminal command: npm install @mui/icons-material
+
 Graciously,
