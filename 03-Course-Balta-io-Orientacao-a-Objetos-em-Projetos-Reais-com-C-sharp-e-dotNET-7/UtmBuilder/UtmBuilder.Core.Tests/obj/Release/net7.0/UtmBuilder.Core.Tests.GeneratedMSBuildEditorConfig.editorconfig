@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UtmBuilder.Core.Tests
-build_property.ProjectDir = C:\coding\Github-Courses\Courses-C-Sharp-dotNET\03-Course-Balta-io-Orientacao-a-Objetos-em-Projetos-Reais-com-C-sharp-e-dotNET-7\UtmBuilder\UtmBuilder.Core.Tests\
+build_property.ProjectDir = C:\coding\Github\Courses-C-Sharp-dotNET\03-Course-Balta-io-Orientacao-a-Objetos-em-Projetos-Reais-com-C-sharp-e-dotNET-7\UtmBuilder\UtmBuilder.Core.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

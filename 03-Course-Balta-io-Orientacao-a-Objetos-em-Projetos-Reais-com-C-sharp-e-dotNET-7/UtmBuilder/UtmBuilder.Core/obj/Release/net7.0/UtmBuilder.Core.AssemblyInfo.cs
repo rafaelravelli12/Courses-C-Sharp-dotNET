@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UtmBuilder.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c9bd948d8c76dd47b58b58f526978eb30f464da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3fe9c3061c0317a886a2a5d5b8191ee2871dcdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("UtmBuilder.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UtmBuilder.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
