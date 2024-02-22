@@ -4,8 +4,6 @@
     ViewData["Title"] = "Home page";
 }
 
-@* Note: Many of the "class=" instances reference Bootstrap sytles. *@
-
 <div class="container p-3">
 
     <div>
@@ -14,28 +12,14 @@
             <p>My favorite fruits and if I have them available.</p>
         </div>
     </div>
-
-    @* The div below handles the display of temporary messages. In this
-    project it displays the success/failure of an HTTP operation. *@
-
-    <div class="container pt-4">
+    
+    <div class="container pt-4"> @* The div below handles the display of temporary messages. In this project it displays the success/failure of an HTTP operation. *@
         <div class="row" style="width:80%">
             <div class="col">
-                @if (TempData["success"] != null)
-
-
-
-                {
+                @if (TempData["success"] != null) {
                     <h4>@TempData["success"]</h4>
                 }
-
-
-
-                else
-
-
-
-                {
+                else {
                     <h4>@TempData["failure"]</h4>
                 }
             </div>
@@ -46,9 +30,8 @@
             </div>
         </div>
     </div>
-
-    @* The table below displays the data retrieved from the API *@
-    <table class="table table-bordered table-striped" style="width:80%">
+    
+    <table class="table table-bordered table-striped" style="width:80%"> @* The table below displays the data retrieved from the API *@
         <thead>
             <tr>
                 <th>Fruit Name</th>
@@ -57,41 +40,26 @@
             </tr>
         </thead>
 
-        @* Begin render API data code block *@
-
         <tbody>
-
-            @* The Razor keyword @foreach is used to iterate through the
-            data returned to the data model from the HTTP operations. *@
-            @foreach (var obj in Model.FruitModels)
-            {
+            @foreach (var obj in Model.FruitModels) { @* The Razor keyword @foreach is used to iterate through the data returned to the data model from the HTTP operations. *@
                 <tr>
-                    @* Display the name of the fruit. *@
                     <td width="50%">@obj.name</td>
-                    @* The following if statment is a Razor code block that changes the color
-                and icon of the available indicator in the page rendering. *@
                     @{
-                        if (@obj.instock)
-                        {
+                        if (@obj.instock) {
                             <td width="20%" class="text-md-center">
                                 <i class="bi bi-check-circle" style="font-size: 1rem; color: green;"></i>&nbsp;Yes
                             </td>
-                        }
-                        else
-                        {
+                        } else {
                             <td width="20%" class="text-md-center">
                                 <i class="bi bi-dash-circle" style="font-size: 1rem; color:red;"></i>&nbsp;No
                             </td>
                         }
                     }
                     <td width="30%" class="text-center">
-                        @* The following div contains information to handle the edit and delete functions. *@
                         <div class="w-75 btn-group btn-group-sm" role="group" style="text-align:center">
-                            @* Routes to the Edit page and passes the id of the record. *@
                             <a asp-page="Edit" asp-route-id="@obj.id" class="btn btn-primary  mx-2">
                                 <i class="bi bi-pencil-square"></i> Edit
                             </a>
-                            @* Routes to the Delete page and passes the id of the record. *@
                             <a asp-page="Delete" asp-route-id="@obj.id" class="btn btn-danger mx-2">
                                 <i class="bi bi-trash"></i> Delete
                             </a>
@@ -100,8 +68,5 @@
                 </tr>
             }
         </tbody>
-
-        @* End render API data code block *@
-
     </table>
 </div>

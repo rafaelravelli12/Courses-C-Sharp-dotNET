@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="rr-comments.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="rr-comments.md" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
 
