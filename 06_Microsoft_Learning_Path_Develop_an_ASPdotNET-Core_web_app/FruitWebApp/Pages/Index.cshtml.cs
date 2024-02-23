@@ -8,25 +8,30 @@ using Microsoft.AspNetCore.Mvc;
 namespace FruitWebApp.Pages
 {
     public class IndexModel : PageModel
-    {        
-        private readonly IHttpClientFactory _httpClientFactory; // IHttpClientFactory set using dependency injection 
+    {    
+        // IHttpClientFactory set using dependency injection 
+        private readonly IHttpClientFactory _httpClientFactory; 
 
         public IndexModel(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
+
+        // Add the data model and bind the form data to the page model properties
+        [BindProperty]
+        // Enumerable since an array is expected as a response
+        public IEnumerable<FruitModel> FruitModels { get; set; }
         
-        [BindProperty] // Add the data model and bind the form data to the page model properties
-        public IEnumerable<FruitModel> FruitModels { get; set; } // Enumerable since an array is expected as a response
-        
-        public async Task OnGet() // Begin GET operation code
+        public async Task OnGet()
         {            
-            var httpClient = _httpClientFactory.CreateClient("FruitAPI"); // Create the HTTP client using the FruitAPI named factory
-            
-            using HttpResponseMessage response = await httpClient.GetAsync(""); // Perform the GET request and store the response. The empty parameter // in GetAsync doesn't modify the base address set in the client factory 
-            
-            if (response.IsSuccessStatusCode) // If the request is successful deserialize the results into the data model
-            {
+            // Create the HTTP client using the FruitAPI named factory
+            var httpClient = _httpClientFactory.CreateClient("FruitAPI");
+
+            // Perform the GET request and store the response. The empty parameter in GetAsync doesn't modify the base address set in the client factory
+            using HttpResponseMessage response = await httpClient.GetAsync("");
+
+            // If the request is successful deserialize the results into the data model
+            if (response.IsSuccessStatusCode) {
                 using var contentStream = await response.Content.ReadAsStreamAsync();
                 FruitModels = await JsonSerializer.DeserializeAsync<IEnumerable<FruitModel>>(contentStream);
             }

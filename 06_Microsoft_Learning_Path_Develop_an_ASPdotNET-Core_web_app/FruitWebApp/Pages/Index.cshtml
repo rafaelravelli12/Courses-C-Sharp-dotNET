@@ -12,14 +12,17 @@
             <p>My favorite fruits and if I have them available.</p>
         </div>
     </div>
-    
-    <div class="container pt-4"> @* The div below handles the display of temporary messages. In this project it displays the success/failure of an HTTP operation. *@
+
+    @* The div below handles the display of temporary messages. In this project it displays the success/failure of an HTTP operation. *@
+    <div class="container pt-4"> 
         <div class="row" style="width:80%">
             <div class="col">
-                @if (TempData["success"] != null) {
+                @if (TempData["success"] != null)
+                {
                     <h4>@TempData["success"]</h4>
                 }
-                else {
+                else
+                {
                     <h4>@TempData["failure"]</h4>
                 }
             </div>
@@ -30,8 +33,9 @@
             </div>
         </div>
     </div>
-    
-    <table class="table table-bordered table-striped" style="width:80%"> @* The table below displays the data retrieved from the API *@
+
+    @* The table below displays the data retrieved from the API *@
+    <table class="table table-bordered table-striped" style="width:80%"> 
         <thead>
             <tr>
                 <th>Fruit Name</th>
@@ -39,17 +43,20 @@
                 <th class="text-center">Manage</th>
             </tr>
         </thead>
-
         <tbody>
-            @foreach (var obj in Model.FruitModels) { @* The Razor keyword @foreach is used to iterate through the data returned to the data model from the HTTP operations. *@
+            @* The Razor keyword @foreach is used to iterate through the data returned to the data model from the HTTP operations. *@
+            @foreach (var obj in Model.FruitModels) { 
                 <tr>
                     <td width="50%">@obj.name</td>
                     @{
-                        if (@obj.instock) {
+                        if (@obj.instock)
+                        {
                             <td width="20%" class="text-md-center">
                                 <i class="bi bi-check-circle" style="font-size: 1rem; color: green;"></i>&nbsp;Yes
                             </td>
-                        } else {
+                        }
+                        else
+                        {
                             <td width="20%" class="text-md-center">
                                 <i class="bi bi-dash-circle" style="font-size: 1rem; color:red;"></i>&nbsp;No
                             </td>

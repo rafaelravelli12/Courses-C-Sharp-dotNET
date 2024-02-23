@@ -19,7 +19,6 @@ namespace FruitWebApp.Pages
         [BindProperty]
         public FruitModel FruitModels { get; set; }
 
-
         // Retrieve the data to populate the form for deletion
         public async Task OnGet(int id)
         {
@@ -38,8 +37,6 @@ namespace FruitWebApp.Pages
             }
         }
 		
-
-		// Begin DELETE operation code
         public async Task<IActionResult> OnPost()
 		{
  			// Create the HTTP client using the FruitAPI named factory
@@ -48,8 +45,7 @@ namespace FruitWebApp.Pages
             // Appends the data Id for deletion to the base address and performs the operation
             using HttpResponseMessage response = await httpClient.DeleteAsync(FruitModels.id.ToString());
 
-			// Return to the home (Index) page and add a temporary success/failure 
-            // message to the page.
+			// Return to the home (Index) page and add a temporary success/failure message to the page.
             if (response.IsSuccessStatusCode)
             {
                 TempData["success"] = "Data was deleted successfully.";
@@ -60,10 +56,6 @@ namespace FruitWebApp.Pages
                 TempData["failure"] = "Operation was not successful";
                 return RedirectToPage("Index");
             }
-
 		}
-        // End DELETE operation code
-
 	}
 }
-
