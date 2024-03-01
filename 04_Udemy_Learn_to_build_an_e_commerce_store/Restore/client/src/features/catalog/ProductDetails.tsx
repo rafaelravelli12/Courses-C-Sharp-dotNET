@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Product } from "../../app/models/product";
 import agent from "../../app/api/agent";
+import NotFound from "../../app/errors/NotFound";
 
 export default function HProductDetailsPage() {
 
@@ -23,13 +24,13 @@ export default function HProductDetailsPage() {
     useEffect(() => {
         id && agent.Catalog.details(parseInt(id))
             .then(response => setProduct(response))
-            .catch(error => console.log(error))
+            .catch(error => console.log(error.response))
             .finally(() => setLoading(false));
     }, [id])
 
     if (loading) return <h3>Loading...</h3>
 
-    if (!product) return <h3>Product not found</h3>
+    if (!product) return <NotFound />
 
     return (
         <Grid container spacing={6}>
