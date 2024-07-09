@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using project_API.Data;
 using project_API.Models.Domain;
 using project_API.Models.DTO;
-using System.Collections.Generic;
 
 namespace project_API.Controllers
 {
@@ -62,7 +60,7 @@ namespace project_API.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] AddRegionRequestDto addRegionRequestDto)
         {
-                var regionDomainModel = new Region
+            var regionDomainModel = new Region
             {
                 Code = addRegionRequestDto.Code,
                 Name = addRegionRequestDto.Name,
