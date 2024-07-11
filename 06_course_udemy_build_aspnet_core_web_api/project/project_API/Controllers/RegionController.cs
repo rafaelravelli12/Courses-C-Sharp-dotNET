@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore; // Make sure this namespace is included
+using Microsoft.EntityFrameworkCore;
 using project_API.Data;
 using project_API.Models.Domain;
 using project_API.Models.DTO;
+using project_API.Repositories;
 
 namespace project_API.Controllers
 {
@@ -11,16 +12,18 @@ namespace project_API.Controllers
     public class RegionController : ControllerBase
     {
         private readonly ProjectDbContext dbContext;
-        public RegionController(ProjectDbContext dbContext)
+        private readonly IRegionRepository regionRepository;
+        public RegionController(ProjectDbContext dbContext, IRegionRepository regionRepository)
         {
             this.dbContext = dbContext;
+            this.regionRepository = regionRepository;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             // Get Data from Database - Domain models
-            var regionsDomain = await dbContext.Regions.ToListAsync();
+            var regionsDomain = await regionRepository.GetAllAsync();
 
             // Map Domain Models to DTOs
             var regionsDto = new List<RegionDto>();
@@ -45,7 +48,7 @@ namespace project_API.Controllers
         {
             // var region = dbContext.Regions.Find(id);
             // Get Region Domain Model from Database
-            var regionDomain = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id);
+            var regionDomain = await regionRepository.GetByIdAsync(id);
             if (regionDomain == null)
             {
                 return NotFound();
@@ -75,8 +78,7 @@ namespace project_API.Controllers
             };
 
             // Use Domain Model to create Region
-            await dbContext.Regions.AddAsync(regionDomainModel);
-            await dbContext.SaveChangesAsync();
+            regionDomainModel = await regionRepository.CreateAsync(regionDomainModel);
 
             // Map Domain model back to DTO
             var regionDto = new RegionDto

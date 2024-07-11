@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using project_API.Data;
+using project_API.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ProjectDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectConnectionString")));
+
+builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
 
 var app = builder.Build();
 
