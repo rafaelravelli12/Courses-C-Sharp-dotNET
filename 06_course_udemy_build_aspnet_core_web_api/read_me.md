@@ -19,6 +19,6 @@ Package Manager (PM) -> Add-Migration "Initial Migration"
 
 Package Manager (PM) -> Update-Database
 
-Course done up to class 33
+Course done up to class 36
 
 Graciously,

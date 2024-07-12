@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using project_API.Data;
 using project_API.Models.Domain;
 using project_API.Models.DTO;
@@ -18,7 +17,7 @@ namespace project_API.Controllers
             this.dbContext = dbContext;
             this.regionRepository = regionRepository;
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -96,7 +95,20 @@ namespace project_API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Update([FromRoute] Guid id , [FromBody] UpdateRegionRequestDto UpdateRegionRequestDto)
         {
-            await regionRepository.UpdateAsync(id, UpdateRegionRequestDto);
+            // Map DTO to Domain Model
+            var regionDomainModel = new Region
+            {
+                Code = UpdateRegionRequestDto.Code,
+                Name = UpdateRegionRequestDto.Name,
+                RegionImageUrl = UpdateRegionRequestDto.RegionImageUrl
+            };
+
+            regionDomainModel = await regionRepository.UpdateAsync(id, regionDomainModel);
+            if (regionDomainModel == null)
+            {
+                return NotFound();
+            }
+
             // Convert Domain Model to DTO
             var regionDto = new RegionDto
             {
@@ -113,15 +125,11 @@ namespace project_API.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
-            var regionDomainModel = await dbContext.Regions.FirstOrDefaultAsync(x => x.Id == id);
+            var regionDomainModel = await regionRepository.DeleteAsync(id);
             if (regionDomainModel == null)
             {
                 return NotFound();
             }
-
-            // Delete Region
-            dbContext.Regions.Remove(regionDomainModel);
-            await dbContext.SaveChangesAsync();
 
             // return deleted Region back
             // map Domain Model to DTO
