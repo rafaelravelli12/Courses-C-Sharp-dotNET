@@ -1,10 +1,11 @@
-# C# with .NET
+<img src="dotnet_logo.png" width="300" />
 
-![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![GitHub commits](https://img.shields.io/github/commit-activity/m/rafaelravelli12/dotnet)
+
+# dotNET
 
 ### Estimeed Sirs,
 
-This repository is being used as showcase for courses and personal projects using C# with .NET.
+This repository is being used as a showcase for courses and personal projects using dotNET.
 
 Graciously,
